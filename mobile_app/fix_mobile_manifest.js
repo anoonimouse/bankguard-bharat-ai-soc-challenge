@@ -1,0 +1,43 @@
+const fs = require('fs');
+
+const manifestContent = `<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application
+        android:label="YONO Mock"
+        android:name="\${applicationName}"
+        android:usesCleartextTraffic="true"
+        android:icon="@mipmap/ic_launcher">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:taskAffinity=""
+            android:theme="@style/LaunchTheme"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+              android:name="io.flutter.embedding.android.NormalTheme"
+              android:resource="@style/NormalTheme"
+              />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
+    </application>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.PROCESS_TEXT"/>
+            <data android:mimeType="text/plain"/>
+        </intent>
+    </queries>
+</manifest>`;
+
+const filePath = 'D:/Downloads/Flutter Apps/trustyono/mobile_app/android/app/src/main/AndroidManifest.xml';
+
+// Write using explicit 'utf8' encoding to ensure no BOM
+fs.writeFileSync(filePath, manifestContent, { encoding: 'utf8' });
+console.log('Mobile App Manifest rewritten successfully without BOM.');

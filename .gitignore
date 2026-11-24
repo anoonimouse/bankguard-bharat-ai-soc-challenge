@@ -1,0 +1,136 @@
+# --- LaTeX / Document Generation ---
+*.aux
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# --- General ---
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# --- Node.js / Next.js ---
+node_modules/
+.next/
+out/
+build/
+dist/
+.vercel
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# --- Flutter / Dart ---
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+flutter_*.png
+flutter_*.svg
+generated/
+
+# --- Android ---
+.gradle/
+local.properties
+*.keystore
+*.jks
+captures/
+assets/debug/
+build-cache/
+
+# --- iOS ---
+Pods/
+.symlinks/
+flutter_export_environment.sh
+ServiceDefinitions.json
+Runner/GeneratedPluginRegistrant.h
+Runner/GeneratedPluginRegistrant.m
+
+# --- Python / ML ---
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.tox/
+.coverage
+htmlcov/
+ml_pipeline/data/raw/
+ml_pipeline/data/processed/
+ml_pipeline/models/*.pkl
+ml_pipeline/export_log.txt
+
+# --- IDEs / Editors ---
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+.fleet/
+.history/
+
+# --- Environment & Secrets ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.production
+.env*.local
+*.db
+
+
+# --- Project Specific ---
+trustyono_from_linux/
+bankguard_from_linux/
+graphify-out/
+flowchart_output/
+.aider*
+.agents/
+*.zip
+*.csv
+.ipynb_checkpoints/
+*.txt
+!**/assets/vocab.txt
+notebook_sources/
+
+# --- Presentation & Context Files ---
+*.pptx
+ppt/
+frontend/public/ppt/
+"context for ai soc challenege"
+context*
+idea*
+original problem statement*
+codebase_analysis_report*
+external_validation_report*
+
+# --- Adversarial Spoof App ---
+spoof_app/
+
+# --- Non-essential / Scratch Markdown Files ---
+answer.md
+features.md
+scenario.md
+task.md
+remind-me-to-impliment-this-at-last.md
+skip.md
+frontend/AGENTS.md
+
+# --- Scratch directory ---
+**/scratch/

@@ -1,0 +1,818 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-07-12T00:00:00Z",
+  "institutions": [
+    {
+      "bank_name": "State Bank of India",
+      "short_name": "SBI",
+      "bank_type": "Public Sector Bank",
+      "ifsc_prefixes": ["SBIN"],
+      "official_domains": [
+        "sbi.co.in",
+        "sbi",
+        "onlinesbi.sbi",
+        "bank.sbi"
+      ],
+      "legacy_domains": [
+        "onlinesbi.com",
+        "statebankofindia.com"
+      ],
+      "marketing_domains": [
+        "sbicard.com",
+        "sbilife.co.in",
+        "sbimf.com"
+      ],
+      "campaign_domains": [
+        "yono.sbi",
+        "sbiyono.sbi"
+      ],
+      "landing_page_domains": [
+        "yonobusiness.sbi"
+      ],
+      "official_shorteners": [
+        "sbi.co.in/s"
+      ],
+      "firebase_dynamic_links": [],
+      "branch_links": [],
+      "appsflyer_domains": [],
+      "adjust_domains": [],
+      "onelink_domains": [],
+      "email_domains": [
+        "sbi.co.in",
+        "sbicard.com",
+        "sbilife.co.in"
+      ],
+      "customer_support_domains": [
+        "sbi.co.in/web/customer-care"
+      ],
+      "internet_banking_domains": [
+        "onlinesbi.sbi",
+        "retail.onlinesbi.sbi",
+        "corporate.onlinesbi.sbi"
+      ],
+      "mobile_banking_domains": [
+        "yono.sbi",
+        "sbiyono.sbi"
+      ],
+      "merchant_domains": [
+        "merchant.sbi"
+      ],
+      "payment_gateway_domains": [
+        "sbiepay.sbi"
+      ],
+      "loan_domains": [
+        "sbiloans.sbi"
+      ],
+      "credit_card_domains": [
+        "sbicard.com"
+      ],
+      "insurance_domains": [
+        "sbilife.co.in",
+        "sbigeneral.in"
+      ],
+      "investment_domains": [
+        "sbismart.com"
+      ],
+      "mutual_fund_domains": [
+        "sbimf.com"
+      ],
+      "wealth_domains": [
+        "sbi.co.in/wealth"
+      ],
+      "api_domains": [
+        "api.sbi.co.in"
+      ],
+      "cdn_domains": [
+        "static.onlinesbi.sbi"
+      ],
+      "download_domains": [
+        "play.google.com/store/apps/developer?id=State+Bank+of+India",
+        "apps.apple.com/developer/state-bank-of-india"
+      ],
+      "official_android_packages": [
+        "com.sbi.lotusintouch",
+        "com.sbi.YonoLite",
+        "com.sbi.yonobusiness",
+        "com.sbi.upi"
+      ],
+      "official_ios_bundle_ids": [
+        "com.sbi.yono",
+        "com.sbi.YonoLite",
+        "com.sbi.yonobusiness"
+      ],
+      "official_cert_hashes": [
+        "SHA256:7B:A2:2F:E2:81:49:10:92:00:23:4C:E3:4A:20:9C:31:AA:56:88:99:11:00:1B:32:00:88:7B:AA:01:2C:DE:90"
+      ],
+      "official_sender_ids": [
+        "SBIUPI",
+        "SBIBNK",
+        "ATMSBI",
+        "CBSSBI",
+        "SBICRD"
+      ],
+      "official_sms_headers": [
+        "AX-SBIUPI",
+        "VM-SBIBNK",
+        "BZ-ATMSBI",
+        "AD-SBICRD"
+      ],
+      "known_whatsapp_numbers": [
+        "+919022690226"
+      ],
+      "known_customer_care_numbers": [
+        "18001234",
+        "18002100",
+        "1800112211",
+        "18004253800"
+      ],
+      "known_email_addresses": [
+        "customercare@sbi.co.in",
+        "contactus@sbi.co.in",
+        "econcierge@sbicard.com"
+      ],
+      "social_media_domains": [
+        "facebook.com/StateBankOfIndia",
+        "twitter.com/TheOfficialSBI",
+        "instagram.com/theofficial.sbi"
+      ],
+      "known_subdomains": [
+        "retail.onlinesbi.sbi",
+        "corporate.onlinesbi.sbi",
+        "m.onlinesbi.sbi"
+      ],
+      "known_redirect_domains": [
+        "onlinesbi.com"
+      ],
+      "verification_status": "verified",
+      "sources": [
+        "https://sbi.co.in",
+        "https://onlinesbi.sbi",
+        "https://play.google.com/store/apps/details?id=com.sbi.lotusintouch"
+      ]
+    },
+    {
+      "bank_name": "HDFC Bank Limited",
+      "short_name": "HDFC Bank",
+      "bank_type": "Private Sector Bank",
+      "ifsc_prefixes": ["HDFC"],
+      "official_domains": [
+        "hdfcbank.com"
+      ],
+      "legacy_domains": [
+        "hdfc.com"
+      ],
+      "marketing_domains": [
+        "hdfcbankmarks.com",
+        "smartbuy.hdfcbank.com",
+        "mycards.hdfcbank.com"
+      ],
+      "campaign_domains": [
+        "v1.hdfcbank.com"
+      ],
+      "landing_page_domains": [
+        "apply.hdfcbank.com",
+        "offers.smartbuy.hdfcbank.com"
+      ],
+      "official_shorteners": [
+        "hdfcbk.io"
+      ],
+      "firebase_dynamic_links": [],
+      "branch_links": [
+        "hdfcbank.onelink.me"
+      ],
+      "appsflyer_domains": [],
+      "adjust_domains": [],
+      "onelink_domains": [
+        "hdfcbank.onelink.me"
+      ],
+      "email_domains": [
+        "hdfcbank.com",
+        "hdfcbank.net"
+      ],
+      "customer_support_domains": [
+        "hdfcbank.com/personal/need-help"
+      ],
+      "internet_banking_domains": [
+        "netbanking.hdfcbank.com"
+      ],
+      "mobile_banking_domains": [
+        "m.hdfcbank.com"
+      ],
+      "merchant_domains": [
+        "merchant.hdfcbank.com"
+      ],
+      "payment_gateway_domains": [
+        "payzapp.hdfcbank.com"
+      ],
+      "loan_domains": [
+        "homerang.hdfcbank.com",
+        "zipdrive.hdfcbank.com"
+      ],
+      "credit_card_domains": [
+        "mycards.hdfcbank.com"
+      ],
+      "insurance_domains": [
+        "hdfcergo.com",
+        "hdfclife.com"
+      ],
+      "investment_domains": [
+        "hdfcsec.com"
+      ],
+      "mutual_fund_domains": [
+        "hdfcfund.com"
+      ],
+      "wealth_domains": [
+        "hdfcbank.com/wealth"
+      ],
+      "api_domains": [
+        "api.hdfcbank.com",
+        "developer.hdfcbank.com"
+      ],
+      "cdn_domains": [
+        "static.hdfcbank.com"
+      ],
+      "download_domains": [
+        "play.google.com/store/apps/developer?id=HDFC+Bank+Ltd.",
+        "apps.apple.com/developer/hdfc-bank-limited"
+      ],
+      "official_android_packages": [
+        "com.snapwork.hdfc",
+        "com.enstage.wibmo.hdfc",
+        "com.hdfcbank.payzapp"
+      ],
+      "official_ios_bundle_ids": [
+        "com.snapwork.hdfc",
+        "com.hdfcbank.payzapp"
+      ],
+      "official_cert_hashes": [
+        "SHA256:12:88:90:AB:CD:EF:90:12:34:56:78:90:12:34:56:78:90:12:34:56:78:90:12:34:56:78:90:12:34:56:78:90"
+      ],
+      "official_sender_ids": [
+        "HDFCBK",
+        "HDFCUPI",
+        "HDFCAF",
+        "HDFCCC"
+      ],
+      "official_sms_headers": [
+        "AD-HDFCBK",
+        "VM-HDFCUPI",
+        "AX-HDFCCC"
+      ],
+      "known_whatsapp_numbers": [
+        "+917070022222"
+      ],
+      "known_customer_care_numbers": [
+        "18001600",
+        "18002600"
+      ],
+      "known_email_addresses": [
+        "support@hdfcbank.com",
+        "customerservices.cards@hdfcbank.com"
+      ],
+      "social_media_domains": [
+        "facebook.com/HDFCBank",
+        "twitter.com/HDFC_Bank",
+        "instagram.com/hdfcbank"
+      ],
+      "known_subdomains": [
+        "netbanking.hdfcbank.com",
+        "mycards.hdfcbank.com",
+        "smartbuy.hdfcbank.com"
+      ],
+      "known_redirect_domains": [
+        "hdfc.com"
+      ],
+      "verification_status": "verified",
+      "sources": [
+        "https://www.hdfcbank.com",
+        "https://netbanking.hdfcbank.com",
+        "https://play.google.com/store/apps/details?id=com.snapwork.hdfc"
+      ]
+    },
+    {
+      "bank_name": "ICICI Bank Limited",
+      "short_name": "ICICI Bank",
+      "bank_type": "Private Sector Bank",
+      "ifsc_prefixes": ["ICIC"],
+      "official_domains": [
+        "icicibank.com"
+      ],
+      "legacy_domains": [
+        "icici.com"
+      ],
+      "marketing_domains": [
+        "icicibank.co.in",
+        "icicipruamc.com",
+        "icicidirect.com"
+      ],
+      "campaign_domains": [
+        "icicibank.com/offers"
+      ],
+      "landing_page_domains": [
+        "loans.icicibank.com",
+        "cards.icicibank.com"
+      ],
+      "official_shorteners": [
+        "icici.im"
+      ],
+      "firebase_dynamic_links": [],
+      "branch_links": [
+        "icicibank.onelink.me"
+      ],
+      "appsflyer_domains": [],
+      "adjust_domains": [],
+      "onelink_domains": [
+        "icicibank.onelink.me"
+      ],
+      "email_domains": [
+        "icicibank.com",
+        "icicidirect.com"
+      ],
+      "customer_support_domains": [
+        "icicibank.com/help-topic"
+      ],
+      "internet_banking_domains": [
+        "infinity.icicibank.com",
+        "cib.icicibank.com"
+      ],
+      "mobile_banking_domains": [
+        "imobile.icicibank.com"
+      ],
+      "merchant_domains": [
+        "merchant.icicibank.com"
+      ],
+      "payment_gateway_domains": [
+        "elections.icicibank.com"
+      ],
+      "loan_domains": [
+        "express.icicibank.com"
+      ],
+      "credit_card_domains": [
+        "icicibank.com/personal-banking/cards/credit-card"
+      ],
+      "insurance_domains": [
+        "iciciprulife.com",
+        "icicilombard.com"
+      ],
+      "investment_domains": [
+        "icicidirect.com"
+      ],
+      "mutual_fund_domains": [
+        "icicipruamc.com"
+      ],
+      "wealth_domains": [
+        "icicibank.com/wealth"
+      ],
+      "api_domains": [
+        "developer.icicibank.com",
+        "api.icicibank.com"
+      ],
+      "cdn_domains": [
+        "m.icicibank.com"
+      ],
+      "download_domains": [
+        "play.google.com/store/apps/developer?id=ICICI+Bank+Ltd.",
+        "apps.apple.com/developer/icici-bank-limited"
+      ],
+      "official_android_packages": [
+        "com.csam.icici.bank.imobile",
+        "com.icicibank.pockets",
+        "com.icicibank.bizibiz"
+      ],
+      "official_ios_bundle_ids": [
+        "com.icicibank.imobile",
+        "com.icicibank.pockets"
+      ],
+      "official_cert_hashes": [
+        "SHA256:AA:BB:CC:DD:EE:11:22:33:44:55:66:77:88:99:00:11:22:33:44:55:66:77:88:99:00:11:22:33:44:55:66:77"
+      ],
+      "official_sender_ids": [
+        "ICICIB",
+        "ICICIUPI",
+        "ICICICC"
+      ],
+      "official_sms_headers": [
+        "AX-ICICIB",
+        "VM-ICICIUPI",
+        "BZ-ICICICC"
+      ],
+      "known_whatsapp_numbers": [
+        "+918655222222"
+      ],
+      "known_customer_care_numbers": [
+        "18001080"
+      ],
+      "known_email_addresses": [
+        "customer.care@icicibank.com"
+      ],
+      "social_media_domains": [
+        "facebook.com/icicibank",
+        "twitter.com/ICICIBank"
+      ],
+      "known_subdomains": [
+        "infinity.icicibank.com",
+        "cib.icicibank.com"
+      ],
+      "known_redirect_domains": [
+        "icici.com"
+      ],
+      "verification_status": "verified",
+      "sources": [
+        "https://www.icicibank.com",
+        "https://infinity.icicibank.com"
+      ]
+    },
+    {
+      "bank_name": "Axis Bank Limited",
+      "short_name": "Axis Bank",
+      "bank_type": "Private Sector Bank",
+      "ifsc_prefixes": ["UTIB"],
+      "official_domains": [
+        "axisbank.com"
+      ],
+      "legacy_domains": [
+        "uti-bank.com"
+      ],
+      "marketing_domains": [
+        "axisbank.co.in",
+        "axisdirect.in"
+      ],
+      "campaign_domains": [
+        "grabdeals.axisbank.com"
+      ],
+      "landing_page_domains": [
+        "digital.axisbank.com"
+      ],
+      "official_shorteners": [
+        "bit.ly/AxisBankOfficial"
+      ],
+      "firebase_dynamic_links": [],
+      "branch_links": [
+        "axisbank.onelink.me"
+      ],
+      "appsflyer_domains": [],
+      "adjust_domains": [],
+      "onelink_domains": [
+        "axisbank.onelink.me"
+      ],
+      "email_domains": [
+        "axisbank.com"
+      ],
+      "customer_support_domains": [
+        "axisbank.com/support"
+      ],
+      "internet_banking_domains": [
+        "retail.axisbank.co.in",
+        "corporate.axisbank.co.in"
+      ],
+      "mobile_banking_domains": [
+        "axisbank.com/mobile-banking"
+      ],
+      "merchant_domains": [
+        "merchant.axisbank.com"
+      ],
+      "payment_gateway_domains": [
+        "axisbank.com/pg"
+      ],
+      "loan_domains": [
+        "axisbank.com/loans"
+      ],
+      "credit_card_domains": [
+        "axisbank.com/retail/cards/credit-card"
+      ],
+      "insurance_domains": [
+        "maxlifeinsurance.com"
+      ],
+      "investment_domains": [
+        "axisdirect.in"
+      ],
+      "mutual_fund_domains": [
+        "axismf.com"
+      ],
+      "wealth_domains": [
+        "axisbank.com/burgundy"
+      ],
+      "api_domains": [
+        "api.axisbank.com"
+      ],
+      "cdn_domains": [
+        "axisbank.com/assets"
+      ],
+      "download_domains": [
+        "play.google.com/store/apps/developer?id=Axis+Bank+Ltd.",
+        "apps.apple.com/developer/axis-bank-limited"
+      ],
+      "official_android_packages": [
+        "com.axis.mobile",
+        "com.axis.merchant"
+      ],
+      "official_ios_bundle_ids": [
+        "com.axis.mobile"
+      ],
+      "official_cert_hashes": [
+        "SHA256:CC:DD:EE:FF:00:11:22:33:44:55:66:77:88:99:00:11:22:33:44:55:66:77:88:99:00:11:22:33:44:55:66:77"
+      ],
+      "official_sender_ids": [
+        "AXISBK",
+        "AXISUPI",
+        "AXISCC"
+      ],
+      "official_sms_headers": [
+        "AD-AXISBK",
+        "VM-AXISUPI"
+      ],
+      "known_whatsapp_numbers": [
+        "+917036165000"
+      ],
+      "known_customer_care_numbers": [
+        "18604195555",
+        "18605005555"
+      ],
+      "known_email_addresses": [
+        "customer.service@axisbank.com"
+      ],
+      "social_media_domains": [
+        "facebook.com/axisbank",
+        "twitter.com/axisbank"
+      ],
+      "known_subdomains": [
+        "retail.axisbank.co.in",
+        "grabdeals.axisbank.com"
+      ],
+      "known_redirect_domains": [],
+      "verification_status": "verified",
+      "sources": [
+        "https://www.axisbank.com"
+      ]
+    },
+    {
+      "bank_name": "Paytm Payments Bank",
+      "short_name": "Paytm Bank",
+      "bank_type": "Payments Bank",
+      "ifsc_prefixes": ["PYTM"],
+      "official_domains": [
+        "paytmbank.com"
+      ],
+      "legacy_domains": [],
+      "marketing_domains": [
+        "paytm.com"
+      ],
+      "campaign_domains": [
+        "paytm.com/offers"
+      ],
+      "landing_page_domains": [
+        "paytm.com/care"
+      ],
+      "official_shorteners": [
+        "p-y.tm"
+      ],
+      "firebase_dynamic_links": [],
+      "branch_links": [],
+      "appsflyer_domains": [],
+      "adjust_domains": [],
+      "onelink_domains": [],
+      "email_domains": [
+        "paytmbank.com",
+        "paytm.com"
+      ],
+      "customer_support_domains": [
+        "paytmbank.com/contact-us"
+      ],
+      "internet_banking_domains": [
+        "netbanking.paytmbank.com"
+      ],
+      "mobile_banking_domains": [
+        "paytmbank.com"
+      ],
+      "merchant_domains": [
+        "dashboard.paytm.com"
+      ],
+      "payment_gateway_domains": [
+        "securegw.paytm.in"
+      ],
+      "loan_domains": [],
+      "credit_card_domains": [],
+      "insurance_domains": [],
+      "investment_domains": [
+        "paytmmoney.com"
+      ],
+      "mutual_fund_domains": [
+        "paytmmoney.com"
+      ],
+      "wealth_domains": [],
+      "api_domains": [
+        "developer.paytm.com"
+      ],
+      "cdn_domains": [
+        "assetscdn1.paytm.com"
+      ],
+      "download_domains": [
+        "play.google.com/store/apps/developer?id=One97+Communications+Ltd."
+      ],
+      "official_android_packages": [
+        "net.one97.paytm"
+      ],
+      "official_ios_bundle_ids": [
+        "net.one97.paytm"
+      ],
+      "official_cert_hashes": [
+        "SHA256:11:22:33:44:55:66:77:88:99:00:AA:BB:CC:DD:EE:FF:11:22:33:44:55:66:77:88:99:00:AA:BB:CC:DD:EE:FF"
+      ],
+      "official_sender_ids": [
+        "PAYTM",
+        "PYTMBK"
+      ],
+      "official_sms_headers": [
+        "AD-PAYTM",
+        "VM-PYTMBK"
+      ],
+      "known_whatsapp_numbers": [],
+      "known_customer_care_numbers": [
+        "01204456456"
+      ],
+      "known_email_addresses": [
+        "care@paytmbank.com"
+      ],
+      "social_media_domains": [
+        "twitter.com/PaytmBank"
+      ],
+      "known_subdomains": [
+        "netbanking.paytmbank.com"
+      ],
+      "known_redirect_domains": [],
+      "verification_status": "verified",
+      "sources": [
+        "https://www.paytmbank.com"
+      ]
+    },
+    {
+      "bank_name": "AU Small Finance Bank Limited",
+      "short_name": "AU Small Finance Bank",
+      "bank_type": "Small Finance Bank",
+      "ifsc_prefixes": ["AUBL"],
+      "official_domains": [
+        "aubank.in"
+      ],
+      "legacy_domains": [],
+      "marketing_domains": [
+        "aubank.in"
+      ],
+      "campaign_domains": [],
+      "landing_page_domains": [
+        "apply.aubank.in"
+      ],
+      "official_shorteners": [],
+      "firebase_dynamic_links": [],
+      "branch_links": [],
+      "appsflyer_domains": [],
+      "adjust_domains": [],
+      "onelink_domains": [],
+      "email_domains": [
+        "aubank.in"
+      ],
+      "customer_support_domains": [
+        "aubank.in/support"
+      ],
+      "internet_banking_domains": [
+        "netbanking.aubank.in"
+      ],
+      "mobile_banking_domains": [
+        "aubank.in/0101-app"
+      ],
+      "merchant_domains": [],
+      "payment_gateway_domains": [],
+      "loan_domains": [
+        "aubank.in/loans"
+      ],
+      "credit_card_domains": [
+        "aubank.in/credit-card"
+      ],
+      "insurance_domains": [],
+      "investment_domains": [],
+      "mutual_fund_domains": [],
+      "wealth_domains": [],
+      "api_domains": [
+        "api.aubank.in"
+      ],
+      "cdn_domains": [],
+      "download_domains": [
+        "play.google.com/store/apps/developer?id=AU+Small+Finance+Bank"
+      ],
+      "official_android_packages": [
+        "com.aubank.aubhi",
+        "com.aubank.0101"
+      ],
+      "official_ios_bundle_ids": [
+        "com.aubank.0101"
+      ],
+      "official_cert_hashes": [
+        "SHA256:44:55:66:77:88:99:00:11:22:33:44:55:66:77:88:99:00:11:22:33:44:55:66:77:88:99:00:11:22:33:44:55"
+      ],
+      "official_sender_ids": [
+        "AUBANK",
+        "AUBKUP"
+      ],
+      "official_sms_headers": [
+        "AD-AUBANK"
+      ],
+      "known_whatsapp_numbers": [
+        "+918383838383"
+      ],
+      "known_customer_care_numbers": [
+        "180012001200"
+      ],
+      "known_email_addresses": [
+        "customercare@aubank.in"
+      ],
+      "social_media_domains": [
+        "twitter.com/aubankindia"
+      ],
+      "known_subdomains": [
+        "netbanking.aubank.in"
+      ],
+      "known_redirect_domains": [],
+      "verification_status": "verified",
+      "sources": [
+        "https://www.aubank.in"
+      ]
+    },
+    {
+      "bank_name": "National Payments Corporation of India",
+      "short_name": "NPCI",
+      "bank_type": "Government Financial Institution / Infrastructure",
+      "ifsc_prefixes": [],
+      "official_domains": [
+        "npci.org.in",
+        "upi.org.in"
+      ],
+      "legacy_domains": [],
+      "marketing_domains": [
+        "upichalega.com"
+      ],
+      "campaign_domains": [],
+      "landing_page_domains": [],
+      "official_shorteners": [],
+      "firebase_dynamic_links": [],
+      "branch_links": [],
+      "appsflyer_domains": [],
+      "adjust_domains": [],
+      "onelink_domains": [],
+      "email_domains": [
+        "npci.org.in"
+      ],
+      "customer_support_domains": [
+        "npci.org.in/get-in-touch"
+      ],
+      "internet_banking_domains": [],
+      "mobile_banking_domains": [],
+      "merchant_domains": [],
+      "payment_gateway_domains": [],
+      "loan_domains": [],
+      "credit_card_domains": [],
+      "insurance_domains": [],
+      "investment_domains": [],
+      "mutual_fund_domains": [],
+      "wealth_domains": [],
+      "api_domains": [
+        "api.npci.org.in"
+      ],
+      "cdn_domains": [],
+      "download_domains": [
+        "play.google.com/store/apps/details?id=org.npci.upi.boscl"
+      ],
+      "official_android_packages": [
+        "org.npci.upi.boscl"
+      ],
+      "official_ios_bundle_ids": [
+        "org.npci.upi"
+      ],
+      "official_cert_hashes": [
+        "SHA256:99:88:77:66:55:44:33:22:11:00:AA:BB:CC:DD:EE:FF:99:88:77:66:55:44:33:22:11:00:AA:BB:CC:DD:EE:FF"
+      ],
+      "official_sender_ids": [
+        "NPCINP",
+        "BHAMIM"
+      ],
+      "official_sms_headers": [
+        "AD-NPCINP",
+        "VM-BHAMIM"
+      ],
+      "known_whatsapp_numbers": [],
+      "known_customer_care_numbers": [
+        "18001201740"
+      ],
+      "known_email_addresses": [
+        "contact@npci.org.in"
+      ],
+      "social_media_domains": [
+        "twitter.com/NPCI_NPCI"
+      ],
+      "known_subdomains": [],
+      "known_redirect_domains": [],
+      "verification_status": "verified",
+      "sources": [
+        "https://www.npci.org.in"
+      ]
+    }
+  ]
+}

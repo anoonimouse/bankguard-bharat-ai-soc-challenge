@@ -1,0 +1,29 @@
+{
+  "model_version": "1.1.0",
+  "training_date": "2026-04-02T01:21:59.591615",
+  "xgboost_version": "3.2.0",
+  "python_version": "3.12.10",
+  "feature_count": 45,
+  "performance": {
+    "auc_roc": 0.9954,
+    "auc_pr": 0.9981,
+    "accuracy": 0.9692,
+    "precision": 0.9795,
+    "recall": 0.976,
+    "f1": 0.9777,
+    "fpr": 0.0461,
+    "fnr": 0.024,
+    "optimal_threshold": 0.18,
+    "test_size": 146549,
+    "targets_met": true
+  },
+  "notes": "v1.1.0 -- RBI .bank.in domain awareness, three-tier whitelist, 4 new features",
+  "upgrade_notes": "Added is_bank_in_domain, is_fin_in_domain, claims_bank_wrong_domain, is_bank_in_lookalike features. Restructured whitelist into 3 tiers. Feature count changed from 41 to 45 -- model is NOT backward compatible with v2.0.0.",
+  "rbi_mandate_compliance": {
+    "mandate": "All Indian banks must operate on .bank.in domains",
+    "deadline": "2025-10-31",
+    "registrar": "IDRBT (Institute for Development and Research in Banking Technology)",
+    "namespace_operator": "NIXI/MeitY"
+  },
+  "regulatory_reference": "RBI Circular April 2025 -- Mandatory .bank.in migration for all scheduled commercial banks"
+}

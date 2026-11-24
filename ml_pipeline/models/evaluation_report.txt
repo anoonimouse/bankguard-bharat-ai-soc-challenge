@@ -1,0 +1,74 @@
+======================================================================
+PHISHING URL DETECTION - MODEL EVALUATION REPORT
+======================================================================
+
+Test set size: 146549 samples
+  Phishing (1): 101564
+  Legitimate (0): 44985
+Optimal threshold: 0.18
+
+--- Core Metrics (at optimal threshold) ---
+  AUC-ROC:             0.9954
+  AUC-PR:              0.9981
+  Accuracy:            0.9692
+  Precision:           0.9795
+  Recall:              0.9760
+  F1 Score:            0.9777
+  False Positive Rate: 0.0461
+  False Negative Rate: 0.0240
+
+--- Confusion Matrix ---
+                  Predicted Legit    Predicted Phishing
+  Actual Legit:      42909  ( 29.3%)       2076  (  1.4%)
+  Actual Phishing:    2442  (  1.7%)      99122  ( 67.6%)
+
+--- Threshold Analysis ---
+  Threshold  Precision     Recall        FPR         F1
+       0.10     0.9512     0.9850     0.1142     0.9678
+       0.15     0.9735     0.9781     0.0601     0.9758
+       0.20     0.9822     0.9748     0.0400     0.9785  <-- OPTIMAL
+       0.25     0.9870     0.9721     0.0290     0.9795
+       0.30     0.9902     0.9699     0.0216     0.9800
+       0.35     0.9924     0.9680     0.0168     0.9800
+       0.40     0.9940     0.9662     0.0132     0.9799
+       0.45     0.9951     0.9644     0.0106     0.9795
+       0.50     0.9961     0.9629     0.0084     0.9792
+       0.55     0.9970     0.9613     0.0065     0.9788
+       0.60     0.9978     0.9595     0.0047     0.9783
+       0.65     0.9983     0.9579     0.0037     0.9777
+       0.70     0.9987     0.9561     0.0028     0.9769
+       0.75     0.9990     0.9541     0.0022     0.9760
+       0.80     0.9993     0.9520     0.0016     0.9750
+       0.85     0.9994     0.9490     0.0012     0.9736
+       0.90     0.9996     0.9447     0.0008     0.9714
+
+--- Top 20 Most Important Features ---
+   1. num_dots                       0.3306
+   2. uppercase_ratio                0.1353
+   3. subdomain_count                0.0754
+   4. has_ip_address                 0.0627
+   5. path_depth                     0.0444
+   6. path_entropy                   0.0395
+   7. query_length                   0.0380
+   8. num_special_chars              0.0339
+   9. url_length                     0.0286
+  10. path_length                    0.0257
+  11. num_underscores                0.0208
+  12. num_slashes                    0.0189
+  13. has_login_path                 0.0152
+  14. contains_kyc_keyword           0.0132
+  15. num_digits                     0.0105
+  16. contains_banking_keyword       0.0098
+  17. domain_has_digits              0.0083
+  18. lev_dist_yono                  0.0082
+  19. tld_is_high_risk               0.0078
+  20. domain_has_hyphen              0.0061
+
+--- Target Performance Check ---
+  [PASS] AUC-ROC 0.9954 > 0.97
+  [PASS] Recall 0.9760 > 0.95
+  [PASS] FPR 0.0461 < 0.05
+
+  ALL TARGET METRICS MET -- Model is production-ready!
+
+======================================================================

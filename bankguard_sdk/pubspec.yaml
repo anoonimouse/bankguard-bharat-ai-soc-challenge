@@ -1,0 +1,30 @@
+name: bankguard
+description: >-
+  A comprehensive mobile banking security SDK for Flutter apps — device integrity scanning,
+  social engineering detection, fraud intelligence, and real-time threat protection.
+version: 1.0.1
+homepage: https://github.com/anoonimouse/bankguard/tree/main/bankguard_sdk
+repository: https://github.com/anoonimouse/bankguard
+issue_tracker: https://github.com/anoonimouse/bankguard/issues
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  crypto: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.bankguard.sdk
+        pluginClass: BankguardPlugin

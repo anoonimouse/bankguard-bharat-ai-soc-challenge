@@ -1,0 +1,8 @@
+# Ignore build directories and native C++ compilation artifacts
+android/.cxx/
+android/.gradle/
+build/
+.dart_tool/
+pubspec.lock
+*.iml
+.idea/

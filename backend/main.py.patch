@@ -1,0 +1,24 @@
+--- /home/doy/Documents/Code/trustyono/backend/main.py
++++ /home/doy/Documents/Code/trustyono/backend/main.py
+@@ -372,2 +372,20 @@
+ 
++@app.get("/api/fri/sample/upi")
++def get_sample_upi(db: Session = Depends(database.get_db)):
++    """
++    Returns a short list of random flagged UPI IDs from the FRI database.
++    Used by the spoof_app demo controller to generate test QR codes.
++    """
++    from sqlalchemy.sql.expression import func
++    
++    # Try fetching up to 5 random UPI identifiers
++    records = db.query(models.FriIdentifier).filter(
++        models.FriIdentifier.identifier_type == "upi"
++    ).order_by(func.random()).limit(5).all()
++
++    if records:
++        return [r.identifier_value for r in records]
++    
++    # Fallback if DB is empty
++    return ["fake.fraudster@ybl", "scam.artist@paytm"]
++
+ if __name__ == "__main__":

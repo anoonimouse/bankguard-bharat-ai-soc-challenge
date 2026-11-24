@@ -1,0 +1,13 @@
+{
+  "auc_roc": 0.9954,
+  "auc_pr": 0.9981,
+  "accuracy": 0.9692,
+  "precision": 0.9795,
+  "recall": 0.976,
+  "f1": 0.9777,
+  "fpr": 0.0461,
+  "fnr": 0.024,
+  "optimal_threshold": 0.18,
+  "test_size": 146549,
+  "targets_met": true
+}
